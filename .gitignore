@@ -1,0 +1,34 @@
+# Build Directories
+build/
+bin/
+out/
+
+# Compiled Binaries & Objects
+*.o
+*.out
+*.exe
+*.dylib
+*.so
+*.a
+nano_match
+bench_engine
+
+# CMake Artifacts
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Profiling & Memory Dumps
+massif.out.*
+callgrind.out.*
+perf.data
+*.log
+
+# OS & IDE Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
