@@ -12,3 +12,7 @@ include_directories(include)
 add_executable(nano_match src/main.cpp)
 
 target_link_libraries(nano_match pthread)
+
+# Create the benchmark executable
+add_executable(bench_engine bench/benchEngine.cpp)
+target_link_libraries(bench_engine pthread)
